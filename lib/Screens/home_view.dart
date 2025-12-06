@@ -170,7 +170,6 @@ class HomeView extends StatelessWidget {
                     ),
                   );
                 },
-
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.orangeAccent.shade700,
                   padding: const EdgeInsets.symmetric(
@@ -182,7 +181,7 @@ class HomeView extends StatelessWidget {
                   ),
                 ),
                 child: const Text(
-                  'ابدأ حساب السعرات ',
+                  'ابدأ حسب السعرات ',
                   style: TextStyle(fontSize: 18, color: Colors.white),
                 ),
               ),
@@ -200,7 +199,6 @@ class HomeView extends StatelessWidget {
           boxShadow: [
             BoxShadow(
               color: const Color.fromARGB(255, 0, 0, 0),
-
               blurRadius: 6,
               offset: const Offset(0, -2),
             ),
